@@ -20,6 +20,7 @@
 
 - If interpreter encounters an exception, it checks the except blocks associated with that try block.
 - Wrote three except blocks for errors that I found while testing on both WindowsOS and MacOS -- (e.g. corrupted files / encoding errors)
+- This allows script to continue converting files after encountering an error (append to except blocks if neccessary)
 
 ## DEMO
 
@@ -40,6 +41,7 @@
 <img width="743" alt="Screen Shot 2021-03-21 at 1 44 49 PM" src="https://user-images.githubusercontent.com/80732776/111915251-9ca26200-8a4b-11eb-917a-d7661e294e5f.png">
 
 ## TO-DO
+- Display the number of files converted and the number of files that were skipped due to error.
 - Create similar function to process .docx to .txt with UTF-8 encoding.
 
 
