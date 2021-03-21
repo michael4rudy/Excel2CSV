@@ -1,19 +1,17 @@
-# BatchConvert
-- Converts excel files types (.xlsx) to .csv through subdirectories
-- Converts .docx file types (.docx) to .txt through subdirectories
-- Duplicates file before converting extension to preserve original data. 
+# Excel2CSV
+- Converts excel files types (.xlsx) to .csv from working directory through subdirectories (files contained in nested folders)
+- Duplicates file before converting extension to preserve original data - file is converted to csv file type in Excel2CSV_Output
 - Output folder contains converted file types for all folders/subfolders processed.
 
 ## Executing Script
-1. Copy and paste BatchConvert into working directory containing files/subdirectories
-2. cd into directory containing BatchConvert (do not cd into Batch Convert)
-3. Run the following command: 'python3 ./BatchConvert/convert.py'
-4. Batch Convert Output folder will appear in working directory 
+1. Copy and paste Excel2CSV into working directory containing files/subdirectories
+2. cd into directory containing Excel2CSV (do not cd into Excel2CSV)
+3. Run the following command: 'python3 Excel2CSV/converter.py'
+4. Excel2CSV_Output folder will appear in working directory 
 
 ## General Purpose
 - Converts .xlsx file types to .csv for programs that process unicode encoded files. 
-- Portability allows users to process directories/subdirectories by simply copying and pasting.
+- Portability allows users to process excel files by simply copying and pasting Excel2CSV into directories.
 
 ## Futher Build
-- Create function to decode ANSCI .txt files 
-- Encode .docx/.txt files to UTF-8
+- Create similar function to process .docx to .txt with UTF-8 encoding.
