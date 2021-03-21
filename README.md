@@ -40,3 +40,4 @@
 ## TO-DO
 - Create similar function to process .docx to .txt with UTF-8 encoding.
 
+
